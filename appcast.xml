@@ -5,6 +5,34 @@
         <link>https://github.com/darylthornhill/meetingnotetaker</link>
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
-        <!-- Add new <item> entries here, newest first. -->
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Tue, 12 May 2026 15:43:14 +0000</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>0.1.0 - First Sparkle release</h2>
+                <p>Auto-updates are now wired up. Future versions will install in-place
+                via the standard "Check for Updates..." menu item.</p>
+                <h3>Headline features</h3>
+                <ul>
+                  <li>Live recording pill with audio meter + meeting title</li>
+                  <li>Floating transcript HUD + in-meeting notes editor</li>
+                  <li>Notes-aware summarisation (Qwen3 14B by default)</li>
+                  <li>Persistent speaker identity (voice embeddings)</li>
+                  <li>Per-meeting and per-app audio capture scopes</li>
+                  <li>Calendar-driven title + participant auto-fill</li>
+                  <li>System notifications for pre-meeting, app-launch, and idle</li>
+                  <li>Vocabulary terms + replacement rules</li>
+                  <li>Rename + delete meetings from the library</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/meetingnotetaker/releases/download/v0.1.0/MeetingNoteTaker-0.1.0.zip"
+                length="20856820"
+                type="application/octet-stream"
+                sparkle:edSignature="mmcJDVafLQWJwazxCr485Jnt4iEEoNhgfEmavJjHmGYRVDh/Oe09KcjItwguumrsxY8Ev5AAUxod9VaJ4fd1CA=="/>
+        </item>
     </channel>
 </rss>
