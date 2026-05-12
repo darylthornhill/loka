@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Meeting-note-taker</title>
+        <link>https://github.com/darylthornhill/meetingnotetaker</link>
+        <description>Auto-update feed for Meeting-note-taker.</description>
+        <language>en</language>
+        <!-- Add new <item> entries here, newest first. -->
+    </channel>
+</rss>
