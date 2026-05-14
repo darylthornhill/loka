@@ -6,6 +6,24 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.2</title>
+            <pubDate>Thu, 14 May 2026 10:12:30 +0000</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>0.1.2</h2>
+                <ul>
+                    <li>App icon - purple Loka glyph on a black plate. Visible in Finder, Dock, Spotlight, and the About panel.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.2/Loka-0.1.2.zip"
+                length="25647569"
+                type="application/octet-stream"
+                sparkle:edSignature="vApYWh3pYGcY5bIFZKXyDcrsMY6Zeq8fpNeKCwgTK+Yhy7d1bI4rTRQEzmz73jymOZwPafj2Mhm48Ed8XnniAA=="/>
+        </item>
+        <item>
             <title>0.1.1</title>
             <pubDate>Thu, 14 May 2026 09:47:14 +0000</pubDate>
             <sparkle:version>2</sparkle:version>
