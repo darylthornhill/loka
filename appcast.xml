@@ -6,6 +6,28 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.7</title>
+            <pubDate>Thu, 14 May 2026 20:15:34 +0000</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>0.1.7</h2>
+                <ul>
+                    <li><strong>New Transcript view.</strong> The Library Detail Transcript tab now uses speaker-grouped chat lanes - your voice in accent colour on the right, each meeting speaker in their own colour on the left. Much easier to scan than the old markdown wall.</li>
+                    <li><strong>Renaming a speaker now updates the summary too.</strong> Open a meeting's Speakers tab, type names, hit Save - the Transcript and Summary tabs (and note.md) both pick up the new names immediately. No more re-summarising just to swap "Speaker 1" for a real name.</li>
+                    <li><strong>Memory cleanup after every meeting.</strong> Once a recording finishes summarising, Loka releases the speech model and LLM weights instead of holding them resident forever. Next recording reloads them from disk cache (adds a few seconds to the Start button's loading step).</li>
+                    <li>Fixed: saving speaker names from the Library window without first opening the menu bar popover surfaced an "Output folder isn't configured" warning.</li>
+                    <li>Fixed: speaker names typed in the Speakers tab sometimes didn't appear in the transcript because of an internal id mismatch between FluidAudio's cluster labels and the synthesised "speaker_N" labels. Names now bridge both forms.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.7/Loka-0.1.7.zip"
+                length="25726473"
+                type="application/octet-stream"
+                sparkle:edSignature="CNg62EfZgL17NImPFUX3CTPUPzFc722C8ADUMMY8Fmwa2UglC7v67DVp//1ir4EFy4t7ftKZurQM5rDl3qaQAg=="/>
+        </item>
+        <item>
             <title>0.1.6</title>
             <pubDate>Thu, 14 May 2026 14:45:59 +0000</pubDate>
             <sparkle:version>7</sparkle:version>
