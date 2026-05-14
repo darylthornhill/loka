@@ -6,6 +6,25 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.6</title>
+            <pubDate>Thu, 14 May 2026 14:45:59 +0000</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>0.1.6</h2>
+                <ul>
+                    <li>Loka now checks for updates the moment you open it, instead of waiting for the next scheduled 24-hour check.</li>
+                    <li>Background check cadence reduced from 24 hours to 6 hours.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.6/Loka-0.1.6.zip"
+                length="25649151"
+                type="application/octet-stream"
+                sparkle:edSignature="ZRNMkdsW0qKIp1UA52VDR/fpNvD1QnnTri36tfsRaW4UmPOc+LI9D3u9RyvmRbflhOXDKwfSgUkX6m9TfoQODA=="/>
+        </item>
+        <item>
             <title>0.1.5</title>
             <pubDate>Thu, 14 May 2026 14:41:05 +0000</pubDate>
             <sparkle:version>6</sparkle:version>
