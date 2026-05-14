@@ -6,6 +6,29 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Thu, 14 May 2026 09:47:14 +0000</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>0.1.1</h2>
+                <ul>
+                    <li><strong>Live transcript now appears almost instantly</strong> as italic hypothesis text and solidifies once confirmed. Previously the transcript was blank for the first ~10 seconds after each phrase.</li>
+                    <li>Start recording shows a real loading state with a download progress bar while the speech model is being fetched on first use.</li>
+                    <li>New meetings are named <code>new-meeting</code> by default (or <code>new-meeting-2</code>, <code>new-meeting-3</code>, etc.). After summarisation the meeting is automatically renamed to the title produced by the summary.</li>
+                    <li>New Loka brand identity in the menu bar, onboarding, and app icon. The menu bar glyph turns red while recording, orange while starting and stopping.</li>
+                    <li>Get Started in onboarding now actually closes the onboarding window.</li>
+                    <li>Fixed: macOS no longer prompts for microphone permission repeatedly on first launch.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.1/Loka-0.1.1.zip"
+                length="25580015"
+                type="application/octet-stream"
+                sparkle:edSignature="SB6V1P5ox+z+5vLZqfmVRg9UcJnZVH4NUg9RYWxW3WBb9WrNLCTBM8wjWMLcqADaaYOZ6SGz1ehxoNMtGIVTAQ=="/>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Tue, 12 May 2026 15:43:14 +0000</pubDate>
             <sparkle:version>1</sparkle:version>
