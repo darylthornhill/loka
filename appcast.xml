@@ -6,6 +6,24 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.5</title>
+            <pubDate>Thu, 14 May 2026 14:41:05 +0000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>0.1.5</h2>
+                <ul>
+                    <li>Tidied up the example text shown in the Vocabulary settings panel.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.5/Loka-0.1.5.zip"
+                length="25648715"
+                type="application/octet-stream"
+                sparkle:edSignature="tf+a9wy83GcfvC66D1BNoS04SMcJh+cMT5mng87iiCtRjylPfd+a+m7knhkyJ/qv3j2t6I2cv6BenUvY31KKAQ=="/>
+        </item>
+        <item>
             <title>0.1.4</title>
             <pubDate>Thu, 14 May 2026 14:29:14 +0000</pubDate>
             <sparkle:version>5</sparkle:version>
