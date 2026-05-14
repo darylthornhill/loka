@@ -6,6 +6,25 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.4</title>
+            <pubDate>Thu, 14 May 2026 14:29:14 +0000</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>0.1.4</h2>
+                <ul>
+                    <li>Echo cancellation is now automatically skipped when you're recording with headphones connected. Previously, playback volume dipped and Bluetooth headphones (like AirPods) dropped to mono call-quality audio while recording. Now headphones stay at full quality.</li>
+                    <li>The Echo cancellation toggle in Settings still works as a master override.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.4/Loka-0.1.4.zip"
+                length="25647571"
+                type="application/octet-stream"
+                sparkle:edSignature="Ts3WvJw3dDe27/k0rqYGNIh1JfZQB9nToZ0VeDrEHw/C+OXBEqrrQI95/1UaFw1ztn6qXxXOg4QEKb1xmh6XAw=="/>
+        </item>
+        <item>
             <title>0.1.3</title>
             <pubDate>Thu, 14 May 2026 10:38:28 +0000</pubDate>
             <sparkle:version>4</sparkle:version>
