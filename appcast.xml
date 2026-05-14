@@ -6,6 +6,26 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.8</title>
+            <pubDate>Thu, 14 May 2026 21:08:02 +0000</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>0.1.8</h2>
+                <ul>
+                    <li><strong>Recording starts instantly now.</strong> Previously the Start button sat on "Preparing model..." while Parakeet warmed up; that's gone. Click Start, audio capture begins immediately, the live transcript catches up after the model is up (no audio is lost - the warmup buffers are queued and drained in order when ASR is ready).</li>
+                    <li><strong>Long monologues now break into paragraphs in the Transcript view.</strong> Pauses between speech automatically become paragraph breaks; rapid speakers without pauses get split at sentence boundaries. No more unbroken walls of text.</li>
+                    <li><strong>Version + Check for Updates in Settings.</strong> Cmd+, to General to see which build you're on and trigger an update check without having to dig through the menu bar.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.8/Loka-0.1.8.zip"
+                length="25742140"
+                type="application/octet-stream"
+                sparkle:edSignature="ETgLsHie4LfHvBmymly1E/17s1IE1F15HGgz71d+ubn83wZv96/py4tQtnQws+ejOdPtZJVBTersN2+INbY4CA=="/>
+        </item>
+        <item>
             <title>0.1.7</title>
             <pubDate>Thu, 14 May 2026 20:15:34 +0000</pubDate>
             <sparkle:version>9</sparkle:version>
