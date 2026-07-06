@@ -6,6 +6,29 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.9</title>
+            <pubDate>Mon, 06 Jul 2026 11:23:31 +0000</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>0.1.9</h2>
+                <ul>
+                    <li>Action items are now attributed to the person who actually committed to them, not whoever the task is for</li>
+                    <li>Due dates are computed correctly from spoken weekdays ("I'll jump on it Monday") and can no longer fall before the meeting date</li>
+                    <li>Invented dates are scrubbed from summary text</li>
+                    <li>Near-duplicate action items are merged; fabricated decisions no longer appear</li>
+                    <li>"Speaker 1/2" labels no longer leak into note prose</li>
+                    <li>More consistent structured extraction from the on-device model</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.9/Loka-0.1.9.zip"
+                length="27060899"
+                type="application/octet-stream"
+                sparkle:edSignature="C03kUuyskHlSMtV1zjcYkjEnQCwsBsEbI69AT3167g4vkdFetmvLxrnaG7FcIPyLeQNyObJZswXZhKiKK83UBg=="/>
+        </item>
+        <item>
             <title>0.1.8</title>
             <pubDate>Thu, 14 May 2026 21:08:02 +0000</pubDate>
             <sparkle:version>10</sparkle:version>
