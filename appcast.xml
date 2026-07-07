@@ -6,6 +6,28 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.11</title>
+            <pubDate>Tue, 07 Jul 2026 20:49:00 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>0.1.11</h2>
+                <ul>
+                    <li>Frees the summarisation model's GPU memory after each summary, reducing resident memory</li>
+                    <li>Mic loudness filter: drops audio picked up from distant speakers/other people so it doesn't pollute your side of the transcript</li>
+                    <li>Shows your microphone's Voice Isolation status with a hint when it's off</li>
+                    <li>Find in transcript (Cmd+F) with match navigation</li>
+                    <li>Reordered the meeting tabs to Summary, Transcript, Notes, Speakers</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.11/Loka-0.1.11.zip"
+                length="25897389"
+                type="application/octet-stream"
+                sparkle:edSignature="yXkgmrap4qGbiuwGEu3yJPTPxzu4GXrrsZLB6j0zcjt+bL8HACmoFHqQnwSr0gycmE5vM/1V0P82vt3wVO4TCg=="/>
+        </item>
+        <item>
             <title>0.1.10</title>
             <pubDate>Tue, 07 Jul 2026 14:24:27 +0000</pubDate>
             <sparkle:version>12</sparkle:version>
