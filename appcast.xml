@@ -6,6 +6,47 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.12</title>
+            <pubDate>Wed, 12 Aug 2026 11:07:52 +0000</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Better notes on long meetings</h2>
+                <ul>
+                <li><strong>Work nobody claimed is no longer thrown away.</strong> On longer meetings, tasks the group agreed needed doing but nobody volunteered for are now captured and shown as <em>Unassigned</em>, instead of being silently dropped. On a real 84-minute workshop this took action-item extraction from 3 candidates to 23.</li>
+                <li><strong>The whole-meeting outline now scales with meeting length.</strong> It previously sampled a fixed amount regardless of how long the meeting was, so coverage got worse the longer you talked. An 84-minute workshop went from 3 outline sections to 7, and the topics got correspondingly more specific.</li>
+                <li><strong>A speaker's thought is never split across two chunks.</strong> Chunks are now packed from whole speaker turns.</li>
+                </ul>
+                
+                <h2>Cleaner output</h2>
+                <ul>
+                <li><strong>Garbled speech no longer reaches your open questions.</strong> Unreadable transcription fragments are filtered out.</li>
+                <li><strong>New "Worth checking" section.</strong> Flags actions with no owner, questions with no follow-up, and decisions with nothing implementing them. It only reports what it can prove from the summary itself - it never claims something wasn't discussed.</li>
+                <li><strong>Dates from before the meeting no longer leak in</strong>, including written forms like "June 28".</li>
+                <li><strong>Phantom speakers can no longer be named</strong> after a real person, so nobody gets added to a meeting they were never in.</li>
+                </ul>
+                
+                <h2>Memory and disk</h2>
+                <ul>
+                <li><strong>Fixes memory exhaustion on long meetings.</strong> The GPU buffer pool was effectively unbounded, so every discarded cache stayed resident for the whole meeting. This was the real reason an 8B model could run a machine out of RAM.</li>
+                <li><strong>Retired model weights are reclaimed automatically</strong> in the background. Freed 31 GB of a 34 GB cache on the dev machine. No settings to change.</li>
+                <li><strong>Newer Qwen3.5 and Qwen3.6 models are selectable.</strong> Qwen3-8B stays the default - it measured better for meeting notes than the newer families.</li>
+                </ul>
+                
+                <h2>Reliability</h2>
+                <ul>
+                <li><strong>One malformed field no longer destroys an entire summary.</strong></li>
+                <li>Updated the speech engine to FluidAudio 0.15.5.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.12/Loka-0.1.12.zip"
+                length="27427229"
+                type="application/octet-stream"
+                sparkle:edSignature="OiVKn8vY8sH+WIGjgZ5B/W63R3GcKR7WsYD8NcaBtoPTDSmA2u8FPFQtBQv5Aq1h8p9oEPuknGRcfuF0eQJPDg=="/>
+        </item>
+        <item>
             <title>0.1.11</title>
             <pubDate>Tue, 07 Jul 2026 20:49:00 +0000</pubDate>
             <sparkle:version>13</sparkle:version>
