@@ -6,6 +6,26 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.13</title>
+            <pubDate>Fri, 14 Aug 2026 08:20:43 +0000</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Readable summaries</h2>
+                <ul>
+                <li><strong>The summary is no longer one unbroken wall of text.</strong> Long meetings were producing a single ~300-word block with no paragraph breaks, in both <code>note.md</code> and the Summary tab. Summaries are now split into balanced paragraphs at sentence boundaries.</li>
+                <li>Short summaries are left alone - they read fine as one paragraph, and breaking them up would look arbitrary.</li>
+                <li>Splitting only ever inserts breaks. No wording is changed, reordered, or dropped.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.13/Loka-0.1.13.zip"
+                length="27430103"
+                type="application/octet-stream"
+                sparkle:edSignature="F4m1G6TDTY5onMsy/SBjWecxn0HwsJUGjUtmvpkNZArq6ORqZuYYq+12KTsvh2GQxthKDvZhYALuEnaCrULlBw=="/>
+        </item>
+        <item>
             <title>0.1.12</title>
             <pubDate>Wed, 12 Aug 2026 11:07:52 +0000</pubDate>
             <sparkle:version>14</sparkle:version>
