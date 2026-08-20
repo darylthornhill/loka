@@ -6,6 +6,36 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.14</title>
+            <pubDate>Thu, 20 Aug 2026 10:45:35 +0000</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>More accurate transcripts</h2>
+                <ul>
+                <li><strong>Words the recogniser reliably mishears are now corrected automatically.</strong> "Claude" was coming out as "clawed", "ClickUp" as "click up". Loka ships with correction rules for these, and they appear in Settings &rarr; Vocabulary where you can edit or remove them like your own.</li>
+                <li><strong>Add your own corrections</strong> for names, products and shorthand specific to you - colleague names are the most valuable thing to add.</li>
+                </ul>
+                
+                <h2>Easier-to-read transcripts</h2>
+                <ul>
+                <li><strong>Transcripts get a readability pass</strong> after your notes are ready - punctuation and capitalisation added, filler removed. It runs quietly in the background and never delays your summary.</li>
+                <li>Your original words are always kept underneath. If the tidy-up is ever unsure about a line, that line stays exactly as it was spoken.</li>
+                </ul>
+                
+                <h2>Under the hood</h2>
+                <ul>
+                <li>Dependency versions are now pinned, so transcription and summarisation behave consistently between updates.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.14/Loka-0.1.14.zip"
+                length="27477266"
+                type="application/octet-stream"
+                sparkle:edSignature="jR024d5E/64n08dXQhN9mAL/V/EloZJCI24+QgGqxFH+tU9bGG8LZKlxsI3/EmuM+1Ca0IGDCtFAT1pZJtb1CQ=="/>
+        </item>
+        <item>
             <title>0.1.13</title>
             <pubDate>Fri, 14 Aug 2026 08:20:43 +0000</pubDate>
             <sparkle:version>15</sparkle:version>
