@@ -6,6 +6,34 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.15</title>
+            <pubDate>Mon, 24 Aug 2026 14:08:52 +0000</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>More accurate transcripts</h3>
+                <ul>
+                <li><strong>Recordings are now transcribed in one pass.</strong> Loka was keeping the live text that scrolls past during a meeting, which is produced under a real-time constraint. It now re-transcribes the finished audio with the full-file decoder: about 5% more words recovered, and roughly three times faster than the old path.</li>
+                <li><strong>Speakers stop getting merged.</strong> A clustering bug in the speech engine was collapsing distinct voices into one. Upgraded to the fixed version, and Loka now tells the diarizer how many people to expect when the meeting has an attendee list.</li>
+                <li><strong>Transcript lines follow the conversation.</strong> Lines are split on real pauses rather than fixed windows, so a paragraph is a thought instead of an arbitrary 30-second slice.</li>
+                </ul>
+                <h3>Model picker</h3>
+                <ul>
+                <li>The recommended model is listed first, and models that scored badly in testing are labelled as such instead of sitting unmarked next to the good ones.</li>
+                </ul>
+                <h3>Under the hood</h3>
+                <ul>
+                <li>Loka is now an Apple Silicon build. The Intel slice could never run the summariser - the on-device model framework has no Intel backend - so it was removed rather than shipped broken.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.15/Loka-0.1.15.zip"
+                length="22147125"
+                type="application/octet-stream"
+                sparkle:edSignature="z56jnY3jkFqiM9aN1lrznnXFnXChEoXfpviS1pNHqZKI9YrdfslXHkoH/VtuM4Uk6VCaOZb0UHOEdxvQt6qeAg=="/>
+        </item>
+        <item>
             <title>0.1.14</title>
             <pubDate>Thu, 20 Aug 2026 10:45:35 +0000</pubDate>
             <sparkle:version>16</sparkle:version>
