@@ -6,6 +6,40 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.16</title>
+            <pubDate>Wed, 02 Sep 2026 08:38:49 +0000</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Fix your summary by talking to it</h3>
+                <ul>
+                <li><strong>A correction box now sits under every summary.</strong> Type "Adam wasn't in this meeting - that was Phill" and the summary is patched in seconds with one small on-device call - never a full re-run, so everything you already accepted stays word-for-word intact. Measured: the fix applied in 18 seconds and changed nothing else.</li>
+                <li><strong>Corrections stick.</strong> They're stored with the meeting and replayed through every future re-summarise, so regenerating can't quietly undo a fix you were told was applied. Each one is listed and individually removable.</li>
+                </ul>
+                <h3>Speaker accuracy</h3>
+                <ul>
+                <li><strong>Lines go to whoever actually spoke most of them.</strong> A line used to be attributed by its middle instant, so speech straddling a speaker change was misfiled wholesale. Short, uncertain lines trapped between one speaker's turns now follow that speaker; confident interjections keep their own.</li>
+                <li><strong>Phantom speakers are gone.</strong> A few seconds of cross-talk could become a whole "Speaker 7" with garbled text filed under it. Clusters with under 10 seconds of real speech no longer become speakers - their audio goes to the real people around them, and no words are lost.</li>
+                <li><strong>Name detection stops believing gossip.</strong> "It's Phill who owns that" no longer tags the current speaker as Phill - only genuine introductions count.</li>
+                </ul>
+                <h3>Getting content out</h3>
+                <ul>
+                <li><strong>Copy and Share buttons</strong> for the summary, transcript and your notes, plus "Copy all" which bundles the summary and transcript into one Markdown document for pasting into Mail, Slack or Notion.</li>
+                </ul>
+                <h3>Reliability</h3>
+                <ul>
+                <li><strong>Starting a recording now cancels any background summary</strong> from the previous meeting, freeing the AI model's memory for the live one. The old transcript is safe on disk - one click re-runs its summary later.</li>
+                <li><strong>A summary can no longer be lost to a formatting glitch.</strong> A rare model reply with a raw line break inside it used to fail entirely; it's now repaired automatically.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.16/Loka-0.1.16.zip"
+                length="22195949"
+                type="application/octet-stream"
+                sparkle:edSignature="yhI/Hwt0v6h4B/oZi9rNwQNSWolx0Zxd0xkzB415avBqnJ5PqOYEFd75r7p1DcxQZU9QDQBYAq8LgNqBo7yEBg=="/>
+        </item>
+        <item>
             <title>0.1.15</title>
             <pubDate>Mon, 24 Aug 2026 14:08:52 +0000</pubDate>
             <sparkle:version>17</sparkle:version>
