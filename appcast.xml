@@ -6,6 +6,32 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.17</title>
+            <pubDate>Thu, 01 Oct 2026 12:20:17 +0000</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Better names, better actions</h2>
+                <p>Speakers are named from the conversation itself. Names said in the meeting ("sorry, Liam", "thanks Rich") now count, and a person who joins late is placed by elimination. On a five-person test meeting every speaker is now named correctly, up from none.</p>
+                <p>A new speaker separation model (Nemotron) finds the right number of people and the right turn changes. Lines are split where the speaker actually changes, not where a sentence happens to end.</p>
+                <p>Actions cover what people actually said they would do. Each person's own update is read for their plans, and a request someone agreed to ("let us know when it's on staging" - "for sure") becomes their action. Vague goals, duplicates and lines that were really aimed at someone else are dropped.</p>
+                <p>When several people own work, actions are grouped under each person, with yours first.</p>
+                <h2>Cleaner summaries</h2>
+                <p>Questions that were answered in the meeting are no longer listed as open. Weekday deadlines resolve to the right date. Filler sentences and repeated topic lines are removed, and "Speaker 3" no longer appears in action text.</p>
+                <p>Echo from your speakers that your mic picked up is removed, so you are no longer credited with other people's words.</p>
+                <h2>Reliability</h2>
+                <p>If a microphone fails to start, the menu bar now explains what happened and lets you clear it.</p>
+                <p>AI models are stored in Application Support instead of Documents. Existing models move there once, on first launch, and the Documents folder prompt stops.</p>
+                <p>An error inside the AI engine now fails that one step instead of closing the app.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.17/Loka-0.1.17.zip"
+                length="22726594"
+                type="application/octet-stream"
+                sparkle:edSignature="eZpJNGLxJqCFeOw/ttvjPN/rkyvNKgegMKmiifF8OQ5H7NZeq1S5EQrN7xQVWCH6JiT5ovtYfywo0WKd1h1TBg=="/>
+        </item>
+        <item>
             <title>0.1.16</title>
             <pubDate>Wed, 02 Sep 2026 08:38:49 +0000</pubDate>
             <sparkle:version>18</sparkle:version>
