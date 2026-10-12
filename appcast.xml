@@ -6,6 +6,57 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.18</title>
+            <pubDate>Mon, 12 Oct 2026 15:39:57 +0000</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>A new home for your meetings</h2>
+                <ul>
+                <li><strong>One window for everything.</strong> Your meetings sit in a sidebar grouped by day, with Home, Upcoming and Action items at the top. Loka now shows in the Dock and the app switcher while its window is open, and steps back to the menu bar when you close it.</li>
+                <li><strong>Notes you can act on.</strong> Action items are real checkboxes with the owner and due date. Ticks are saved and show up when you copy, share or export the note.</li>
+                <li><strong>Jump to the moment.</strong> Each action item has a timestamp. Click it to play the recording from that point and see the transcript alongside.</li>
+                <li><strong>Listen back.</strong> Every meeting has an audio player with a waveform coloured by speaker, and speed control.</li>
+                <li><strong>Search all your meetings</strong> - titles, summaries, action items and transcripts - with Cmd-K.</li>
+                <li><strong>Home</strong> shows your next meeting, your open actions from every meeting, and what is still being processed.</li>
+                </ul>
+                
+                <h2>Offers to transcribe at the right moment</h2>
+                <ul>
+                <li><strong>A banner appears just before a calendar meeting</strong> with a video link, with "Join and transcribe" in one click. It shows over full-screen calls and never takes your typing.</li>
+                <li>Snooze it, remind me at the start, or stop it offering for a recurring meeting. Choose which calendars Loka watches in Settings.</li>
+                </ul>
+                
+                <h2>Always know what Loka is doing</h2>
+                <ul>
+                <li><strong>The menu bar icon</strong> now shows recording, processing and "note ready".</li>
+                <li><strong>The live pill stays with you after you stop</strong>, shows when your note is being written, and tells you when it is ready. It steps aside while Loka is in front.</li>
+                <li><strong>A notification</strong> tells you when a note is ready, with how many actions are yours.</li>
+                <li>Add quick notes during a call from the menu bar or the expanded pill.</li>
+                </ul>
+                
+                <h2>Settings, reorganised</h2>
+                <ul>
+                <li>Settings is now split into General, Recording, Meetings, Speakers, Vocabulary, Summaries and Privacy.</li>
+                <li>New: open at login, a shortcut to start or stop recording from anywhere, how long a silence before Loka asks to stop, and dark mode throughout.</li>
+                </ul>
+                
+                <h2>Fixes</h2>
+                <ul>
+                <li>Starting a recording from a notification or the banner now always shows the live pill.</li>
+                <li>The meeting list updates when processing finishes, without a refresh.</li>
+                <li>Opening a web browser no longer prompts you to record.</li>
+                <li>Quick notes are no longer overwritten by the notes editor.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.18/Loka-0.1.18.zip"
+                length="24737527"
+                type="application/octet-stream"
+                sparkle:edSignature="LkIv2rTiAWCzhyLJMGafneIEeBXrnWr8C2hXrtTOH//4+Lg3s0QJ38QdcpdUngvZ7YZbdy3t7U4FAgeBWU4VBw=="/>
+        </item>
+        <item>
             <title>0.1.17</title>
             <pubDate>Thu, 01 Oct 2026 12:20:17 +0000</pubDate>
             <sparkle:version>19</sparkle:version>
