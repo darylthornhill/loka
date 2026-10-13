@@ -6,6 +6,31 @@
         <description>Auto-update feed for Meeting-note-taker.</description>
         <language>en</language>
         <item>
+            <title>0.1.19</title>
+            <pubDate>Tue, 13 Oct 2026 08:50:58 +0000</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Calendar access works</h2>
+                <ul>
+                <li><strong>Loka can now ask for calendar access.</strong> Clicking Grant in Settings &rarr; Meetings shows the macOS prompt. Before, the request was turned down silently, so the meeting banner, Upcoming and "Next up" had no meetings to show.</li>
+                <li>If System Settings already shows Loka switched on for Calendars but Loka still asks for access, switch Loka off and on again in System Settings &rarr; Privacy &amp; Security &rarr; Calendars, then click Grant in Loka.</li>
+                </ul>
+                
+                <h2>A tidier meeting banner</h2>
+                <ul>
+                <li>The calendar colour sits beside the meeting title, and the time line now reads "In 2 min &middot; 11:30-12:15 &middot; Zoom", with the platform when the invite has a video link.</li>
+                <li>"Never offer for this series" now asks clearly inside the banner, with a single red button to confirm.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/darylthornhill/loka/releases/download/v0.1.19/Loka-0.1.19.zip"
+                length="24741547"
+                type="application/octet-stream"
+                sparkle:edSignature="LmjjyTC6F3nK1Vsy/uCNTEeyh3dSHzyP3brSaKaLG62IUYf6qN5NOIV/Db15r1wzoMA59+S+IGEaOBFcMOgvBA=="/>
+        </item>
+        <item>
             <title>0.1.18</title>
             <pubDate>Mon, 12 Oct 2026 15:39:57 +0000</pubDate>
             <sparkle:version>20</sparkle:version>
